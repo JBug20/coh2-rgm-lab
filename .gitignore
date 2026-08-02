@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+work/
+upload/
+*.sga
+*.rgm
+*.rgo
+*.rga
+*.rgd
+*.blend

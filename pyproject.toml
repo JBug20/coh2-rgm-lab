@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coh2-rgm-lab"
+version = "0.7.0"
+description = "Experimental SGA v7, Relic Chunky, and generic-RGM geometry toolkit for Company of Heroes 2"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "CoH2 RGM Lab contributors"}]
+
+[project.scripts]
+coh2-rgm = "coh2_rgm_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
